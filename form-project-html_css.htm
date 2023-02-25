@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="p-6 w-screen h-screen bg-gray-600">
+    <section id="bg-1" class="bg-[url('./Image/image.jpg')] bg-local bg-no-repeat bg-cover shadow-lg shadow-gray-800 rounded-lg w-full h-full">
+        <section id="bg-2" class="flex flex-wrap items-center justify-center p-2 rounded-lg w-full h-full bg-gradient-to-r from-black to-gray-700 opacity-80">
+            <header id="header" class="flex flex-wrap items-center justify-center py-2 w-full h-[10%]">
+                <nav id="navbar-logo" class="flex items-center justify-center h-full w-[30%]">
+                    <h1 id="logo" class="text-2xl text-sky-500 font-bold">Codawin</h1>
+                </nav>
+                <nav id="navbar" class="h-full w-[65%]">
+                    <ul id="list" class="flex flex-wrap items-center justify-evenly w-full h-full text-gray-400">
+                        <li><a href="#" id="address-home" class="transition hover:text-sky-500 text-sm font-bold tracking-wide">Home</a></li>
+                        <li><a href="#" id="address-join" class="transition hover:text-sky-500 text-sm font-bold tracking-wide">Join</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="form" class="grid grid-rows-6 gap-4 w-full h-[85%]">
+                <div class="row-span-1 px-4 w-full h-full font-bold">
+                    <p id="paragraph-1" class="text-sm text-gray-500">START FOR FREE</p>
+                    <h1 id="main-text" class="my-2 text-3xl text-white">Create New Account<span class="text-sky-500">.</span></h1>
+                    <p id="paragraph-2" class="text-sm text-gray-500">Already A Member? <a href="login" class="text-sky-500">Log in</a></p>
+                </div>
+                <div class="row-span-3 px-4 w-full h-full">
+                    <div id="boxs" class="grid grid-rows-3 gap-y-2 w-full h-full">
+                        <div id="name-boxs" class="row-span-1 w-full h-full">
+                            <div id="¯\_(ツ)_/¯" class="py-4 grid grid-cols-2 gap-x-4 h-full">
+                                <div id="first-name" class="flex flex-wrap items-center justifuy-center rounded-xl p-2 md:bg-gray-800 w-full h-full">
+                                    <p class="text-gray-400 text-sm">First Name</p>
+                                    <input type="text" name="firstName" id="firstName" placeholder="Fingel" class="w-full h-[50%] bg-inherit text-white tracking-wide font-bold transition border-b-2 border-gray-500 hover:border-b-2 hover:border-sky-500">
+                                </div>
+                                <div id="last-name" class="flex flex-wrap items-center justifuy-center rounded-xl p-2 md:bg-gray-800 w-full h-full">
+                                    <p class="text-gray-400 text-sm">Last Name</p>
+                                    <input type="text" name="lastName" id="lastName" placeholder="Fingely" class="w-full h-[50%] bg-inherit text-white tracking-wide font-bold transition border-b-2 border-gray-500 hover:border-b-2 hover:border-sky-500">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="input-email-box" class="p-2 w-full h-full md:bg-gray-800">
+                            <p class="text-gray-400 text-sm">Email</p>
+                            <input type="email" name="" id="" placeholder="fingel@gmail.com" class="w-full h-[50%] bg-inherit text-white tracking-wide font-bold transition border-b-2 border-gray-500 hover:border-b-2 hover:border-sky-500">
+                        </div>
+                        <div id="input-pass-box" class="p-2 w-full h-full md:bg-gray-800">
+                            <p class="text-gray-400 text-sm">Password</p>
+                            <input type="password" name="" id="" placeholder="Fingel@123456789" class="w-full h-[50%] bg-inherit text-white tracking-wide font-bold transition border-b-2 border-gray-500 hover:border-b-2 hover:border-sky-500">
+                        </div>
+                    </div>
+                </div>
+                <div class="row-span-2 px-4 w-full h-full">
+                    <div class="grid grid-cols-1 grid-rows-4 gap-2 w-full h-full text-white font-bold">
+                        <button id="buttom-method" class="row-span-1 rounded-full bg-sky-500">Create Account</button>
+                        <button id="buttom-submit" class="row-span-1 rounded-full bg-gray-500">Change Method</button>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </section>
+</body>
+</html>
